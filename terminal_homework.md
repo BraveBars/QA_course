@@ -23,19 +23,19 @@
 **1) Отправить http запрос на сервер.
 http://162.55.220.72:5005/terminal-hw-request** --- curl http://162.55.220.72:5005/terminal-hw-request --- curl 'http://162.55.220.72:5005/get_method?name=(Sergey)&age=(34)'  
 **2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13**  
-touch script.sh
-cat > script.sh
-#!/bin/bash
-cd c:
-cd newfolder
-mkdir NewFolder_{1..3}
-cd NewFolder_1
-touch {1..3}.txt {1..2}.json
-mkdir Folder_{1..3}
-ls -la
-cd ../
-mv NewFolder_1/1.txt NewFolder_1/2.txt NewFolder_2
-Enter
-Control+C
+touch script.sh  
+cat > script.sh  
+#!/bin/bash  
+cd c:  
+cd newfolder  
+mkdir NewFolder_{1..3}  
+cd NewFolder_1  
+touch {1..3}.txt {1..2}.json  
+mkdir Folder_{1..3}  
+ls -la  
+cd ../  
+mv NewFolder_1/1.txt NewFolder_1/2.txt NewFolder_2  
+Enter  
+Control+C  
 
-sh script.sh
+sh script.sh  
